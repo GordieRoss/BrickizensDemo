@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraToggleButton.js">
+    <Files>
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="22" Column="36" />
+      <File FileName="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" Line="72" Column="4" />
+      <File FileName="Assets\Scripts\QuitGameButton.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraToggleButton.js" Line="61" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
