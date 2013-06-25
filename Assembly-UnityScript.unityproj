@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B950E14A-043C-1F7A-44BD-026FCC7C0B00}</ProjectGuid>
+	<ProjectGuid>{FD68DFC6-31CE-5BC1-8A79-EC22DE43E2B0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,7 @@
      <Compile Include="Assets\Scripts\BrickiszensBehaviour.js" />
      <Compile Include="Assets\Scripts\CameraToggleButton.js" />
      <Compile Include="Assets\Scripts\FPS.js" />
+     <Compile Include="Assets\Scripts\LODToggle.js" />
      <Compile Include="Assets\Scripts\QuitGameButton.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
@@ -147,9 +148,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{DD5C1F7D-BCCF-872E-0637-FE4D1DB8C8F9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{F55CC7C3-5E54-42D0-EF91-27A774AB98A6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{1CDB1472-9C6C-196E-FE46-B9556299E263}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{CCB9424E-BE63-B4BE-1660-B86CA402BF76}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
