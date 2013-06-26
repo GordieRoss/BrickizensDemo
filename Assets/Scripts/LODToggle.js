@@ -44,20 +44,20 @@ if(LODState == 1){
 LODState1.SetActive(true);
 LODState2.SetActive(false);
 LODState3.SetActive(false);
-GameObject.Find("LODMode").GetComponent(GUIText).guiText.text = "0";
+GameObject.Find("LODMode").GetComponent(TextString).str = "0";
 
 }
 if(LODState == 2){
 LODState1.SetActive(false);
 LODState2.SetActive(true);
 LODState3.SetActive(false);
-GameObject.Find("LODMode").GetComponent(GUIText).guiText.text = "1";
+GameObject.Find("LODMode").GetComponent(TextString).str = "1";
 }
 if(LODState ==3){
 LODState1.SetActive(false);
 LODState2.SetActive(false);
 LODState3.SetActive(true);
-GameObject.Find("LODMode").GetComponent(GUIText).guiText.text = "2";
+GameObject.Find("LODMode").GetComponent(TextString).str = "2";
 }
 
 }

@@ -44,20 +44,22 @@ if(CameraState == 1){
 CameraState1.SetActive(true);
 CameraState2.SetActive(false);
 CameraState3.SetActive(false);
-GameObject.Find("CameraMode").GetComponent(GUIText).guiText.text = "GodCamera";
 
+GameObject.Find("CameraMode").GetComponent(TextString).str = "God Camera";
 }
 if(CameraState == 2){
 CameraState1.SetActive(false);
 CameraState2.SetActive(true);
 CameraState3.SetActive(false);
-GameObject.Find("CameraMode").GetComponent(GUIText).guiText.text = "MayorCamera";
+
+GameObject.Find("CameraMode").GetComponent(TextString).str  = "Mayor Camera";
 }
 if(CameraState ==3){
 CameraState1.SetActive(false);
 CameraState2.SetActive(false);
 CameraState3.SetActive(true);
-GameObject.Find("CameraMode").GetComponent(GUIText).guiText.text = "AICamera";
+
+GameObject.Find("CameraMode").GetComponent(TextString).str = "AI Camera";
 }
 
 }
